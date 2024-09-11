@@ -1,0 +1,67 @@
+.register-form-main-container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E2E2B6;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.register-tagline{
+    color : #E7F0DC;
+}
+.register-form-sub-container{
+    background-color: #021526;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 2vw 2vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.register-form-inner-container{
+    /* background-color: #597445; */
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+.register-form-inner-container>input{
+    padding: 15px;
+    font-size: 16px;
+    background-color : #E7F0DC;
+    border: 1px solid rgba(0, 0, 0, 0.464);
+    width: 25vw;
+    border-radius: 10px;
+}
+#register-form-btn{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.407);
+    cursor: pointer;
+    background-color: #03346E;
+    color: #E7F0DC;
+}
+.register-form-sub-container>span{
+    font-size: large;
+    font-weight: bold;
+    color: #E7F0DC;
+}
+.is-login-btn{
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #03346E;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #E7F0DC;
+}
+
+#login-message{
+    color: rgb(245, 34, 34);
+}

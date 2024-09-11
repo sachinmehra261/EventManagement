@@ -1,0 +1,61 @@
+.booked-ticket-main-container{
+    border:2px solid rgba(0, 0, 0, 0.822);
+    width: 25vw;
+}
+.booked-ticket-first-container{
+    width: 25vw;
+    border-bottom: 1px rgba(5, 5, 43, 0.459) dashed;
+    display: flex;
+    padding: 30px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+#ticket-order-summary-tagline{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 8px 0px;
+}
+
+.booked-ticket-description{
+    width: 13vw;
+}
+
+#booked-event-ticket-name{
+    padding: 7px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#booked-ticket-type{
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+.booked-ticket-date-time{
+    font-size: 13px;
+}
+.booked-ticket-quantity>p{
+    font-size: 20px;
+    position: relative;
+    top: 3.5vw;
+}
+.booked-ticket-second-container{
+    padding: 30px;
+}
+
+.second-cont-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.booked-ticket-subtotal-container:nth-child(1){
+    font-size: 20px;
+}
+
+.total-payable-amount-container{
+    background-color: #E2E2B6;
+    font-size: larger;
+    padding: 30px 20px;
+}

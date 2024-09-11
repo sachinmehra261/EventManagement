@@ -1,0 +1,10 @@
+#event-edit-btn{
+    padding: 3px 20px;
+    cursor: pointer;
+    background-color: rgb(85, 214, 85);
+}
+#event-delete-btn{
+    padding: 3px 20px;
+    cursor: pointer;
+    background-color: rgb(238, 95, 95);
+}

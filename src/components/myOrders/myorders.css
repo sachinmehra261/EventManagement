@@ -1,0 +1,66 @@
+.orders-body-container{
+    background-color: #E7F0DC;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vw;
+    min-height: 100vh;
+}
+.orders-sub-container{
+    /* padding: 5vw 30vw; */
+    width: 45vw;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    /* background-color: rgb(178, 95, 95); */
+    /* min-height: 0vh; */
+}
+
+.order-container{
+    display: flex;
+    /* border: 2px solid red; */
+    border-radius: 3px;
+    background-color: #021526;
+    color: white;
+    justify-content: center;
+    /* background-color: rgb(160, 182, 182); */
+}
+.order-container::before{
+    content: ".";
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 78px;
+    left: -45px;
+    background-color: #E7F0DC;
+    border-radius: 50%;
+}
+
+#order-section-1{
+    /* border: 2px solid; */
+    padding: 1vw 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#order-section-2{
+    padding: 1vw 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* border: 2px solid blue; */
+}
+
+#logo-on-ticket-container{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo-on-ticket{
+    height: 70px;
+}

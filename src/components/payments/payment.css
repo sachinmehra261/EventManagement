@@ -1,0 +1,77 @@
+.payment-main-container{
+    width: 70%;
+}
+
+#payment-form-header{
+    background-color: #021526;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#payment-method1{
+    padding: 20px;
+    background-color: #E2E2B6;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+}
+#payment-method1 span{
+    font-size: 20px;
+}
+#payment-method2{
+    padding: 20px;
+    cursor: pointer;
+    background-color: #E2E2B6;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.192);
+}
+#payment-method2 span{
+    font-size: 20px;
+}
+
+#payment-card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #E2E2B6;
+    padding:50px;
+}
+#payment-card-sub-container{
+    width: 30vw;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #021526;
+    border: 2px solid rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    padding: 30px 110px 50px 20px;
+}
+#payment-card-sub-container>input{
+    padding: 8px 20px;
+    font-size: 16px;
+}
+#payment-card-sub-container>div{
+    display: flex;
+    justify-content: space-between;
+}
+#payment-card-sub-container>div>input{
+    padding: 8px;
+    width: 62px;
+}
+#payment-card-sub-container>div>div{
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#payment-card-sub-container>div>div>input{
+    padding: 8px;
+    width: 62px;
+}
+
+#proceed-to-pay-btn{
+    background-color: #021526;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}

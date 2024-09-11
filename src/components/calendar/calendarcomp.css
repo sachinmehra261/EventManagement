@@ -1,0 +1,38 @@
+.calendar-main-container{
+    background-color: #E2E2B6;
+    height: 90vh;
+}
+#calendar-container{
+    display:flex;
+    flex-direction : column;
+    align-items:center;
+    padding-top: 60px;
+    background-color: #E2E2B6;
+}
+
+#date-info{
+    padding: 20px 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.time-btn-active{
+    padding: 8px 18px;
+    background-color: #021526;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.time-btn-inactive{
+    padding: 8px 18px;
+    border: 2px solid #02152673;
+    color: #02152670;
+    background-color: #E2E2B6;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

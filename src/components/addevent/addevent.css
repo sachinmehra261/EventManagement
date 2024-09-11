@@ -1,0 +1,65 @@
+.add-event-form-container{
+    /* border: 2px solid; */
+    /* height: 100vh; */
+    padding: .5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-event-form-container>form{
+    /* border: 2px solid yellow; */
+    color: white;
+    border-radius: 10px;
+    background-color: #021526;
+    display: flex;
+    /* gap: 2px; */
+    flex-direction: column;
+    padding: 2vw;
+    width: 30vw;
+}
+.add-event-form-container>form>input{
+    padding: .8vw 1vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    
+}
+.add-event-form-container>form>textarea{
+    padding: .8vw 1vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.add-event-form-container>form>select{
+    font-size: 16px;
+    padding: .7vw 1vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.add-ticket-event-btn{
+    margin-top: 15px;
+    padding: .5vw 1vw;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(231, 240, 220);
+}
+
+#delete-ticket-icon-container{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0vw 10px;
+}
+
+#delete-ticket-icon{
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}

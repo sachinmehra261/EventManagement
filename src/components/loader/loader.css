@@ -1,0 +1,31 @@
+.loader-main-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.767);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-sub-container {
+  height: 80px;
+  width: 80px;
+  border: 10px solid #E2E2B6;
+  border-top: 10px solid #021526;
+  /* border-bottom: 10px solid #E2E2B6; */
+  /* background-color: aqua; */
+  border-radius: 50%;
+  transition: 1s ease-in-out;
+  animation: ani 1.8s forwards 0s infinite ease-in-out;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,10 @@
+#section-main-container{
+    width: 86vw;
+    height: 100%;
+    margin: auto;
+}
+
+.section-body-container{
+    min-height: 100vh;
+    background-color: #E2E2B6;
+}

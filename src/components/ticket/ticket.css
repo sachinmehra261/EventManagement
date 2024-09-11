@@ -1,0 +1,89 @@
+.ticket-page-background-container{
+    height: 100vh;
+    background-color: #E2E2B6;
+    padding: 60px;
+}
+.ticket-main-container{
+    width: 50vw;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0, 0.533);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#ticket-add-remove-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    font-size: 28px;
+}
+#ticket-add-remove-container>p{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+#ticket-add-remove-container>span{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.add-ticket-btn{
+    padding: 0vw 4vw;
+    border-radius: 10px;
+    background-color: #021526;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+.ticket-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+#ticket-price{
+    font-weight: 500;
+}
+
+#add-button-ticket{
+    padding: 15px 50px;
+    background-color: #021526;
+    color: white;
+    /* font-size: 16px; */
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+#proceed-to-ticket-btn-container{
+    border-top: 1px solid rgba(0, 0, 0, 0.505);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    padding: 15px;
+    background-color: #021526;
+}
+
+#proceed-to-ticket-btn{
+    padding: 10px 20vw;
+    background-color: #E2E2B6;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #021526;
+    cursor: pointer;
+}
+
+#proceed-to-ticket-btn-disabled{
+    padding: 10px 20vw;
+    background-color: rgb(210, 210, 210);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}

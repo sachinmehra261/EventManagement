@@ -1,0 +1,21 @@
+* {
+  margin: 0vw;
+  padding: 0vw;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navlink{
+  text-decoration: none;
+}
+
+:root{
+  --backgroundColor : #021526;
+  --whiteColor : white;
+}

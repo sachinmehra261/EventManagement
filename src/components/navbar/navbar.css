@@ -1,0 +1,115 @@
+.nav-main-container {
+  background-color: hsl(208, 90%, 8%);
+  color: #ffffff;
+  padding: 0vw 2.604vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0vw;
+}
+#nav-sub-container {
+  background-color: hsl(208, 90%, 8%);
+  color: #ffffff;
+  padding: 0.651vw;
+  display: flex;
+  align-items: center;
+}
+
+#menu-logo {
+  font-size: 1.953vw;
+  padding: 0.456vw 0.391vw 0vw 0.391vw;
+  margin-right: 1.953vw;
+  cursor: pointer;
+  border-radius: 0.651vw;
+  color: white;
+  border: none;
+  background-color: #021526;
+  /* border-radius: 50%; */
+  /* background-color: #03346E; */
+}
+#menu-logo:hover {
+  background-color: #03346e;
+}
+#logo {
+  height: 3.385vw;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+#nav-sub-container > ul {
+  display: flex;
+  gap: 3.255vw;
+  align-items: center;
+}
+#nav-sub-container > ul > .navlink > li {
+  list-style: none;
+  padding: 0.326vw 1.042vw;
+  border-radius: 0.651vw;
+  font-size: 1.02vw;
+  cursor: pointer;
+  color: white;
+  /* border: 2px solid red; */
+  /* background-color: #03346E; */
+}
+#nav-sub-container > ul > .navlink > li:hover {
+  transform: scale(1.03);
+  list-style: none;
+  background-color: #03346e;
+  border-radius: 0.651vw;
+}
+
+#nav-search-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 36vw;
+}
+
+#nav-search-bar {
+  font-size: 1.042vw;
+  padding: 0.616vw 1.302vw;
+  outline: none;
+  border-radius: 2.604vw;
+}
+
+#nav-search-logo {
+  position: absolute;
+  left: 13.346vw;
+  top: 0.54vw;
+  font-size: 1.172vw;
+  color: rgba(0, 0, 0, 0.718);
+  cursor: pointer;
+}
+
+#greet-user{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 3vw;
+  width: 19vw;
+  text-align: center;
+}
+
+.mode{
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0px 20px 0px 40px;
+  transition: all .3s;
+}
+.mode:hover{
+  transform: scale(1.07);
+}
+
+#logout-btn{
+  padding: 7px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#logout-btn:hover{
+  background-color: #03346e;
+  color: #ffffff;
+}
